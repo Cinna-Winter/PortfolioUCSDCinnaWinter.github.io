@@ -1,0 +1,169 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+
+
+#title {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    background-color: paleturquoise;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: paleturquoise;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5px;
+}
+.nav-item {
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0 10px;
+    margin: auto;
+}
+.nav-link {
+    color: black;
+    font-size: 1em;
+}
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 40%;
+    transform: rotate(20deg);
+    z-index: 5;
+    position: absolute;
+    margin: 0 0 0 -25%;
+}   
+
+
+    
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    z-index: 10;
+    position: relative;
+    
+}
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: peachpuff;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.icon:hover {
+    color: rgb(180, 154, 131);
+}
+
+#testimonials {
+    background-color: paleturquoise;
+    text-align: center;
+    padding-bottom: 7% 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#press {
+    background-color: paleturquoise;
+    text-align: center;
+    padding-bottom: 7% 15%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+
+#cta {
+    background-color: peachpuff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.cta-btn{
+    margin: 5% 3% 5% 0;
+}
+
+#footer {
+    text-align: center;
+    padding: 7% 7%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.social {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        width: 50%;
+        transform: rotate(0deg);
+        z-index: 5;
+        position: absolute;
+    } 
+    #features {
+        background-color: white;
+        z-index: 10;
+     }       
+@media (max-width: 549px) {
+    }
+    #features {
+       background-color: white;
+       z-index: 5;
+       margin-top: 69%;
+    }
+}
